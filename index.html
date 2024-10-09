@@ -98,7 +98,7 @@
 }
 
 
-/* project image zoom effect */
+
 
 .zoom-effect {
   overflow: hidden;
@@ -129,7 +129,7 @@
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <!-- <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li> -->
+	         
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
 	      </div>
@@ -149,38 +149,37 @@
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Pawan Rai</span></h1>
 
-						<!-- Element to contain animated typing -->
+						
 						<span id="typing-animation"></span>
 
 						<script>
 
-						// Initialize the typing animation
+						
 						const typingAnimationElement = document.getElementById('typing-animation');
 
-						// Create an array of typing text
+						
 						const typingTexts = [
 						' Aspiring Software Engineer  ',
 						
-						'JEE and NEET Aspirants Mentor   ',
+						'Mentor at Polestar   ',
 						];
 
-						// Create a function to display the typing animation for a given text
+						
 						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
+						
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+							}, i * 200); 
 						}
 
-						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
 						}, text.length * 200);
 						}
 
-						// Start the typing animation loop
+						
 						playTypingAnimation(typingTexts[0]);
 
 						</script>
@@ -204,7 +203,7 @@
     	<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
+				
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
